@@ -2,8 +2,12 @@
 def prime?(num)
 if num <= 1
   false
+elsif
+num.even? 
+false
+elsif num % num == 0 && num % 1 == 0
+  true
 else
-num % num == 0 && num % 1 == 0
-true
+  false
 end
 end
