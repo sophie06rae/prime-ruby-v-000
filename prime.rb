@@ -4,6 +4,6 @@ if num <= 1 || num.even?
 false
 else
 num % num == 0 && num % 1 == 0
-true 
+true
 end
 end
