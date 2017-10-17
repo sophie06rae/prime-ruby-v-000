@@ -5,5 +5,5 @@ if num < 2
   false
 else
   array_number.none? {|i|num % i == 0}
-end 
+end
 end
