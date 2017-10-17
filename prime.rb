@@ -3,7 +3,7 @@ def prime?(num)
 if num <= 1 || num.even?
 false
 else
-num = []
-num.any? {|i| i % i == 0 && i % 1 == 0 }
+num % i == 0 && i % 1 == 0 
+true 
 end
 end
